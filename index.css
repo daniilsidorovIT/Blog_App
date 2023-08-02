@@ -1,0 +1,127 @@
+body {
+  font-family: 'Handjet';
+  background-color: #a84232;
+}
+
+.new_post {
+  width: 238px;
+  height: 14px;
+  margin-top: 102px;
+  margin-left: 217px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  font-family: 'Handjet';
+}
+
+.title-input {
+  width: 500px;
+  height: 60px;
+  font-weight: 400;
+  margin-top: 60px;
+  margin-left: 217px;
+  font-size: 32px;
+  display: block;
+  font-family: 'Handjet';
+  border-radius: 25px;
+  border: none;
+  padding: 20px;
+}
+
+.post__title {
+  font-weight: 700;
+  font-family: 'Handjet';
+  font-size: 50px;
+  margin-bottom: 15px;
+  
+}
+
+.post__text {
+  font-family: 'Handjet';
+  margin-bottom: 15px;
+
+}
+
+.post__date {
+  
+  color: #0094ff;
+  font-family: 'Handjet';
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 15px;
+}
+
+.write-posts-input {
+  width: 500px;
+  height: 250px;
+  margin-left: 217px;
+  margin-top: 30px;
+  font-size: 32px;
+  font-weight: 400;
+  border-radius: 25px;
+  font-family: 'Handjet';
+  padding: 20px;
+}
+
+.publication-btn {
+  width: 542px;
+  height: 60px;
+  background-color: black;
+  color: #fff;
+  font-family: 'Handjet';
+  font-size: 50px;
+  font-weight: 400;
+  border: none;
+  margin-top: 30px;
+  margin-left: 217px;
+  border-radius: 15px;
+}
+
+.publication-btn:hover{
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}
+
+.row {
+  display: flex;
+  gap: 100px;
+  width: 500px;
+}
+
+.feed {
+  margin-top: 102px;
+  width: 200px;
+  color: #000;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: normal;
+  font-family: 'Handjet';
+}
+
+.posts {
+  width: 500px;
+  font-family: 'Handjet';
+  font-size: 32px;
+  font-weight: 400;
+  margin-top: 50px;
+}
+
+.validationNotification {
+  width: 500px;
+  margin-left: 217px;
+  margin-top: 30px;
+  color: #8b0000;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  font-family: 'Handjet';
+}
+
+.validationNotification__hidden {
+  display: none;
+}

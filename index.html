@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Приложение блога</title>
+
+    <link rel="shortcut icon" href="/resourse/favicon_blod_app.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@400;700&display=swap"rel="stylesheet"/>
+
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="reset.css">
+  </head>
+
+  <body>
+    <div class="row">
+      <div class="colums">
+        <div class="col">
+          <h1 class="new_post">Новый пост</h1>
+
+          <input
+            data-find="js-post-title-input"
+            class="title-input"
+            placeholder="Заголовок"
+            type="text"
+          />
+
+          <textarea
+            data-find="js-post-text-input"
+            class="write-posts-input"
+            placeholder="Напиште пост"
+            type="text"
+          ></textarea>
+
+          <button data-find="js-new-post-btn" class="publication-btn">
+            Опубликовать
+          </button>
+
+          <div
+            data-find="js-validationNotification"
+            class="validationNotification validationNotification__hidden"
+          ></div>
+        </div>
+      </div>
+      <div class="col">
+        <h2 class="feed">Лента</h2>
+        <div data-find="js-posts" class="posts">Тут пока пусто...</div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
